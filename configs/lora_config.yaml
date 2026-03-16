@@ -1,0 +1,77 @@
+# configs/lora_config.yaml
+# ─────────────────────────────────────────────────────────
+# Hyperparameter configurations for ablation experiments.
+# Run with: python src/train.py --rank 16 --lr 2e-4 --epochs 3
+# ─────────────────────────────────────────────────────────
+
+model:
+  name: "Qwen/Qwen2.5-7B-Instruct"
+  max_seq_length: 256
+  attn_implementation: "flash_attention_2"   # Remove if not supported
+
+quantization:
+  load_in_4bit: true
+  bnb_4bit_quant_type: "nf4"
+  bnb_4bit_use_double_quant: true
+  bnb_4bit_compute_dtype: "bfloat16"
+
+# ── Ablation experiment configs ──────────────────────────
+experiments:
+  exp1_baseline:
+    rank: 8
+    lora_alpha: 16
+    learning_rate: 2.0e-4
+    num_epochs: 3
+    note: "Low rank baseline"
+
+  exp2_recommended:
+    rank: 16
+    lora_alpha: 32
+    learning_rate: 2.0e-4
+    num_epochs: 3
+    note: "Recommended config (best balance)"
+
+  exp3_high_rank:
+    rank: 32
+    lora_alpha: 64
+    learning_rate: 1.0e-4
+    num_epochs: 5
+    note: "High rank, more epochs — may overfit"
+
+  exp4_data_efficiency:
+    rank: 16
+    lora_alpha: 32
+    learning_rate: 2.0e-4
+    num_epochs: 3
+    data_fraction: 0.5
+    note: "Train on 50% data — data efficiency test"
+
+# ── LoRA target modules ──────────────────────────────────
+lora:
+  target_modules:
+    - q_proj
+    - k_proj
+    - v_proj
+    - o_proj
+    - gate_proj
+    - up_proj
+    - down_proj
+  lora_dropout: 0.05
+  bias: "none"
+  task_type: "CAUSAL_LM"
+
+# ── Training defaults ─────────────────────────────────────
+training:
+  per_device_train_batch_size: 4
+  gradient_accumulation_steps: 4      # Effective batch = 16
+  warmup_ratio: 0.03
+  lr_scheduler_type: "cosine"
+  bf16: true
+  tf32: true
+  logging_steps: 25
+  eval_steps: 100
+  save_steps: 100
+  save_total_limit: 3
+  load_best_model_at_end: true
+  metric_for_best_model: "eval_loss"
+  report_to: "wandb"

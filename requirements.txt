@@ -1,0 +1,33 @@
+# Core ML
+torch>=2.2.0
+transformers==4.40.0
+datasets==2.18.0
+peft==0.10.0
+bitsandbytes==0.43.1
+accelerate==0.29.2
+trl==0.8.6
+
+# Tokenization
+sentencepiece
+tokenizers
+
+# Evaluation
+scikit-learn
+pandas
+numpy
+tqdm
+
+# Visualization
+matplotlib
+seaborn
+
+# Utilities
+emoji
+wandb
+pyyaml
+
+# Optional: GPT-4o baseline
+openai>=1.0.0
+
+# Optional: faster attention (install separately)
+# flash-attn>=2.5.0
