@@ -5,7 +5,7 @@
 # ─────────────────────────────────────────────────────────
 
 model:
-  name: "Qwen/Qwen2.5-7B-Instruct"
+  name: "Qwen/Qwen3-8B"
   max_seq_length: 256
   attn_implementation: "flash_attention_2"   # Remove if not supported
 

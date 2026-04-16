@@ -1,0 +1,1802 @@
+[
+  {
+    "text": "早起赶到教室才发现今天改网课",
+    "emoji": "😂",
+    "type": "irony",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "等了半小时的外卖最后显示已取消",
+    "emoji": "😂",
+    "type": "irony",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "刚洗完头小区就通知停水检修",
+    "emoji": "😂",
+    "type": "irony",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "电脑在 ddl 前十分钟自动更新了",
+    "emoji": "😂",
+    "type": "irony",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "地铁刚进站我就在安检口被拦下",
+    "emoji": "😂",
+    "type": "irony",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "周末唯一晴天我偏偏要补课",
+    "emoji": "😂",
+    "type": "irony",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "预约了一个月的号今天医生临时请假",
+    "emoji": "😂",
+    "type": "irony",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "刚把伞借出去外面就下暴雨了",
+    "emoji": "😂",
+    "type": "irony",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "Woke up early for a meeting that got moved to next week",
+    "emoji": "😂",
+    "type": "irony",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "The one day I forgot my charger turned into a full-day class",
+    "emoji": "😂",
+    "type": "irony",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "Finally got a window seat and the shade was broken",
+    "emoji": "😂",
+    "type": "irony",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "Spent an hour meal-prepping and my fridge died overnight",
+    "emoji": "😂",
+    "type": "irony",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "My internet was perfect until the online exam started",
+    "emoji": "😂",
+    "type": "irony",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "Bought concert tickets and then caught a fever",
+    "emoji": "😂",
+    "type": "irony",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "The fire drill started exactly when I got my lunch",
+    "emoji": "😂",
+    "type": "irony",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "Picked the shortest line and it stopped moving completely",
+    "emoji": "😂",
+    "type": "irony",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "今天特地早到 office，结果大家都 remote",
+    "emoji": "😂",
+    "type": "irony",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "熬夜做完 slides，prof 说今天不用 present",
+    "emoji": "😂",
+    "type": "irony",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "刚到 campus 就收到 class cancelled 的邮件",
+    "emoji": "😂",
+    "type": "irony",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "为了这个 group meeting 提前化妆，结果改成 audio call 了",
+    "emoji": "😂",
+    "type": "irony",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "太好了，周一早八还要做 pre",
+    "emoji": "😉",
+    "type": "sarcasm",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "真棒，刚提交完作业系统就崩了",
+    "emoji": "😉",
+    "type": "sarcasm",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "好喜欢这种临时通知，心脏都年轻了",
+    "emoji": "😉",
+    "type": "sarcasm",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "太贴心了，电梯坏在我搬箱子这天",
+    "emoji": "😉",
+    "type": "sarcasm",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "真不错，排了四十分钟队告诉我卖完了",
+    "emoji": "😉",
+    "type": "sarcasm",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "老师突然点名，简直是今日惊喜",
+    "emoji": "😉",
+    "type": "sarcasm",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "这网速真高级，图片一张张给我揭晓",
+    "emoji": "😉",
+    "type": "sarcasm",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "太幸福了，休息日还能收到工作消息",
+    "emoji": "😉",
+    "type": "sarcasm",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "Love that the printer jams only when I'm in a hurry",
+    "emoji": "😉",
+    "type": "sarcasm",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "Amazing, another group project where nobody replies",
+    "emoji": "😉",
+    "type": "sarcasm",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "So nice of my laptop to restart without asking",
+    "emoji": "😉",
+    "type": "sarcasm",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "Great, my coffee spilled right before the interview",
+    "emoji": "😉",
+    "type": "sarcasm",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "Nothing says fun like a surprise quiz at 8 a.m.",
+    "emoji": "😉",
+    "type": "sarcasm",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "Perfect, the train doors closed right in front of me",
+    "emoji": "😉",
+    "type": "sarcasm",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "Lovely, the update deleted all my settings again",
+    "emoji": "😉",
+    "type": "sarcasm",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "Fantastic, the loudest construction started outside my window",
+    "emoji": "😉",
+    "type": "sarcasm",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "太好了，my turn 才发现 machine out of service",
+    "emoji": "😉",
+    "type": "sarcasm",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "Love this for me，刚坐下就被 told to switch rooms",
+    "emoji": "😉",
+    "type": "sarcasm",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "真高级，Zoom 一到我发言就 no sound",
+    "emoji": "😉",
+    "type": "sarcasm",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "Great，今晚终于可以一边改 report 一边等 system reload",
+    "emoji": "😉",
+    "type": "sarcasm",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "这周第三次忘带学生证了，我对校园安检越来越熟",
+    "emoji": "😂",
+    "type": "dark_humor",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "体测前一天才想起来自己上次运动还是上学期",
+    "emoji": "😂",
+    "type": "dark_humor",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "又把闹钟按掉了，迟到这件事我已经很专业",
+    "emoji": "😂",
+    "type": "dark_humor",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "简历投了二十份，邮箱安静得像在给我守灵",
+    "emoji": "😂",
+    "type": "dark_humor",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "考前复习像考古，翻出来的都是我不会的",
+    "emoji": "😂",
+    "type": "dark_humor",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "我的钱包瘦得比我减肥还有效率",
+    "emoji": "😂",
+    "type": "dark_humor",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "这学期的睡眠质量像选修课，想上也排不上",
+    "emoji": "😂",
+    "type": "dark_humor",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "论文写到一半电脑蓝屏，我和灵魂一起重启了",
+    "emoji": "😂",
+    "type": "dark_humor",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "Failed another mock quiz, consistency is really my brand",
+    "emoji": "😂",
+    "type": "dark_humor",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "My sleep schedule is now a performance art piece",
+    "emoji": "😂",
+    "type": "dark_humor",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "I opened my bank app for a quick scare",
+    "emoji": "😂",
+    "type": "dark_humor",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "At this point my to-do list is a horror franchise",
+    "emoji": "😂",
+    "type": "dark_humor",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "Missed the deadline by three minutes, elite precision",
+    "emoji": "😂",
+    "type": "dark_humor",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "My room is so messy it counts as an excavation site",
+    "emoji": "😂",
+    "type": "dark_humor",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "Burnt my dinner again, the smoke alarm stays involved",
+    "emoji": "😂",
+    "type": "dark_humor",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "I call it character development every time plans fall apart",
+    "emoji": "😂",
+    "type": "dark_humor",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "GPA 还在下滑 but at least the graph is consistent",
+    "emoji": "😂",
+    "type": "dark_humor",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "今天又忘交 form，administration probably knows me personally by now",
+    "emoji": "😂",
+    "type": "dark_humor",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "Pulled an all-nighter for this quiz，结果还是稳定发挥",
+    "emoji": "😂",
+    "type": "dark_humor",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "我的人生最近像 bug report，reproduce rate 100%",
+    "emoji": "😂",
+    "type": "dark_humor",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "这个八卦把我整不会了",
+    "emoji": "😂",
+    "type": "slang",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "他这波操作直接把我送走",
+    "emoji": "😂",
+    "type": "slang",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "这段聊天记录越看越上头",
+    "emoji": "😂",
+    "type": "slang",
+    "true_sentiment": "positive"
+  },
+  {
+    "text": "看到成绩那一刻我人都麻了",
+    "emoji": "😂",
+    "type": "slang",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "这个视频笑得我快没气了",
+    "emoji": "😂",
+    "type": "slang",
+    "true_sentiment": "positive"
+  },
+  {
+    "text": "你这回复也太会整活了",
+    "emoji": "😂",
+    "type": "slang",
+    "true_sentiment": "positive"
+  },
+  {
+    "text": "今天的瓜一个比一个离谱，我直接看傻",
+    "emoji": "😂",
+    "type": "slang",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "这张图太有梗了，越看越想笑",
+    "emoji": "😂",
+    "type": "slang",
+    "true_sentiment": "positive"
+  },
+  {
+    "text": "This meme has me absolutely gone",
+    "emoji": "😂",
+    "type": "slang",
+    "true_sentiment": "positive"
+  },
+  {
+    "text": "Her reply was so clean I need a minute",
+    "emoji": "😂",
+    "type": "slang",
+    "true_sentiment": "positive"
+  },
+  {
+    "text": "That plot twist took me out",
+    "emoji": "😂",
+    "type": "slang",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "Bro really thought he ate with that take",
+    "emoji": "😂",
+    "type": "slang",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "This video is so cursed I can't stop replaying it",
+    "emoji": "😂",
+    "type": "slang",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "The chat was so chaotic I'm crying",
+    "emoji": "😂",
+    "type": "slang",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "He posted that with full confidence and I'm finished",
+    "emoji": "😂",
+    "type": "slang",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "This comment section is cooking harder than the original post",
+    "emoji": "😂",
+    "type": "slang",
+    "true_sentiment": "positive"
+  },
+  {
+    "text": "这段 vlog 也太 relatable 了，我直接破防",
+    "emoji": "😂",
+    "type": "slang",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "他最后那句 comeback 真的太狠了，我人没了",
+    "emoji": "😂",
+    "type": "slang",
+    "true_sentiment": "positive"
+  },
+  {
+    "text": "This outfit 有点 killer，评论区都疯了",
+    "emoji": "😂",
+    "type": "slang",
+    "true_sentiment": "positive"
+  },
+  {
+    "text": "今天这个 rumor 一出 whole group chat 都炸了",
+    "emoji": "😂",
+    "type": "slang",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "收完最后一门课的资料，突然感觉这学期真的结束了",
+    "emoji": "😊",
+    "type": "bittersweet",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "搬出住了两年的房间，终于整洁了也真的要走了",
+    "emoji": "😊",
+    "type": "bittersweet",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "拿到 offer 的那一刻，最想分享的人却不在身边",
+    "emoji": "😊",
+    "type": "bittersweet",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "和实习同事拍完合照，开心完就开始舍不得",
+    "emoji": "😊",
+    "type": "bittersweet",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "毕业照终于拍完了，笑着笑着有点空",
+    "emoji": "😊",
+    "type": "bittersweet",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "养了很久的花终于开了，可我下周就要搬家",
+    "emoji": "😊",
+    "type": "bittersweet",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "盼了很久的旅行结束了，手机相册倒是满了",
+    "emoji": "😊",
+    "type": "bittersweet",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "小组项目终于交了，轻松下来反而有点失落",
+    "emoji": "😊",
+    "type": "bittersweet",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "Last day at the internship and suddenly the commute felt precious",
+    "emoji": "😊",
+    "type": "bittersweet",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "Finally finished the series I've been saving, and now I miss it already",
+    "emoji": "😊",
+    "type": "bittersweet",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "Packed the last box from my old apartment and stood there for a while",
+    "emoji": "😊",
+    "type": "bittersweet",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "My best friend got the job overseas and I'm proud and sad at once",
+    "emoji": "😊",
+    "type": "bittersweet",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "The concert I've waited months for ended in what felt like five minutes",
+    "emoji": "😊",
+    "type": "bittersweet",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "Turned in my thesis and didn't know whether to celebrate or sleep",
+    "emoji": "😊",
+    "type": "bittersweet",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "Watched my little brother leave for college and smiled the whole drive home",
+    "emoji": "😊",
+    "type": "bittersweet",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "We won the game and it still felt like the season ended too fast",
+    "emoji": "😊",
+    "type": "bittersweet",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "拿到 final grade 了，not bad at all，但这门课也真的结束了",
+    "emoji": "😊",
+    "type": "bittersweet",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "今天把 resignation letter 发出去了，free 了也有点空",
+    "emoji": "😊",
+    "type": "bittersweet",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "Flight ticket 终于订好了，离出发更近也离家更远了",
+    "emoji": "😊",
+    "type": "bittersweet",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "清完 desk 的那一刻很轻松，then it hit me this chapter is over",
+    "emoji": "😊",
+    "type": "bittersweet",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "特地带了雨伞出门，外面一整天都是大太阳",
+    "emoji": "😂",
+    "type": "irony",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "特地带了雨伞出门，结果老师发通知说停课",
+    "emoji": "😂",
+    "type": "irony",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "特地带了雨伞出门，结果突然开始下暴雨",
+    "emoji": "😂",
+    "type": "irony",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "特地带了雨伞出门，结果场次临时取消了",
+    "emoji": "😂",
+    "type": "irony",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "特地带了雨伞出门，结果今天全员不用来",
+    "emoji": "😂",
+    "type": "irony",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "特地带了雨伞出门，结果上传页面直接崩了",
+    "emoji": "😂",
+    "type": "irony",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "特地带了雨伞出门，结果立刻被叫去开会",
+    "emoji": "😂",
+    "type": "irony",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "特地带了雨伞出门，结果收银系统坏了",
+    "emoji": "😂",
+    "type": "irony",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "特地带了雨伞出门，结果隔壁开始装修钻墙",
+    "emoji": "😂",
+    "type": "irony",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "特地带了雨伞出门，结果鞋跟当场断了",
+    "emoji": "😂",
+    "type": "irony",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "特地带了雨伞出门，结果停电了",
+    "emoji": "😂",
+    "type": "irony",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "特地带了雨伞出门，结果网络刚好断掉",
+    "emoji": "😂",
+    "type": "irony",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "提前到食堂抢第一锅，外面一整天都是大太阳",
+    "emoji": "😂",
+    "type": "irony",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "提前到食堂抢第一锅，结果老师发通知说停课",
+    "emoji": "😂",
+    "type": "irony",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "提前到食堂抢第一锅，结果突然开始下暴雨",
+    "emoji": "😂",
+    "type": "irony",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "提前到食堂抢第一锅，结果场次临时取消了",
+    "emoji": "😂",
+    "type": "irony",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "I finally got to the café early and then the place closed for maintenance",
+    "emoji": "😂",
+    "type": "irony",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "I finally got to the café early and then my class got canceled",
+    "emoji": "😂",
+    "type": "irony",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "I finally got to the café early and then the projector stopped working",
+    "emoji": "😂",
+    "type": "irony",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "I finally got to the café early and then it started pouring outside",
+    "emoji": "😂",
+    "type": "irony",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "I finally got to the café early and then the Wi-Fi disappeared",
+    "emoji": "😂",
+    "type": "irony",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "I finally got to the café early and then the meeting moved online",
+    "emoji": "😂",
+    "type": "irony",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "I finally got to the café early and then the bus broke down",
+    "emoji": "😂",
+    "type": "irony",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "I finally got to the café early and then the doctor called in sick",
+    "emoji": "😂",
+    "type": "irony",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "I finally got to the café early and then the file wouldn't open",
+    "emoji": "😂",
+    "type": "irony",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "I finally got to the café early and then construction started next to me",
+    "emoji": "😂",
+    "type": "irony",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "I packed lunch for once and then the place closed for maintenance",
+    "emoji": "😂",
+    "type": "irony",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "I packed lunch for once and then my class got canceled",
+    "emoji": "😂",
+    "type": "irony",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "I packed lunch for once and then the projector stopped working",
+    "emoji": "😂",
+    "type": "irony",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "I packed lunch for once and then it started pouring outside",
+    "emoji": "😂",
+    "type": "irony",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "I packed lunch for once and then the Wi-Fi disappeared",
+    "emoji": "😂",
+    "type": "irony",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "I packed lunch for once and then the meeting moved online",
+    "emoji": "😂",
+    "type": "irony",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "为了这个 meeting 提前半小时出门，结果改成 async update 了",
+    "emoji": "😂",
+    "type": "irony",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "刚把 report 上传完，system 就发邮件说 portal error",
+    "emoji": "😂",
+    "type": "irony",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "今天特地到 campus 打印，结果 printer room closed",
+    "emoji": "😂",
+    "type": "irony",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "为了 office hour 早起，结果 prof 改成 email reply",
+    "emoji": "😂",
+    "type": "irony",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "刚在 library 找到 seat，旁边 instantly 开始 group discussion",
+    "emoji": "😂",
+    "type": "irony",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "为了这顿 brunch 排了很久，结果 card machine down",
+    "emoji": "😂",
+    "type": "irony",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "今天终于记得带 charger，结果 classroom 没插座",
+    "emoji": "😂",
+    "type": "irony",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "为了 lab 提前到 building，结果 TA 在群里说 online only",
+    "emoji": "😂",
+    "type": "irony",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "太好了，刚坐下就通知换教室",
+    "emoji": "😉",
+    "type": "sarcasm",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "太好了，打印到最后一页没墨了",
+    "emoji": "😉",
+    "type": "sarcasm",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "太好了，我排到队首才说系统坏了",
+    "emoji": "😉",
+    "type": "sarcasm",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "太好了，休息日一早收到临时任务",
+    "emoji": "😉",
+    "type": "sarcasm",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "太好了，提交前一秒浏览器直接闪退",
+    "emoji": "😉",
+    "type": "sarcasm",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "太好了，刚洗完衣服外面就下雨",
+    "emoji": "😉",
+    "type": "sarcasm",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "太好了，我一出门地铁就全线延误",
+    "emoji": "😉",
+    "type": "sarcasm",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "太好了，会议正到我发言时麦克风没声",
+    "emoji": "😉",
+    "type": "sarcasm",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "太好了，外卖到了我人却被锁在楼下",
+    "emoji": "😉",
+    "type": "sarcasm",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "太好了，期末周电脑开始弹更新",
+    "emoji": "😉",
+    "type": "sarcasm",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "太好了，我赶到教室才看到改线上",
+    "emoji": "😉",
+    "type": "sarcasm",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "太好了，做完 ppt 才发现发错版本",
+    "emoji": "😉",
+    "type": "sarcasm",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "真贴心，刚坐下就通知换教室",
+    "emoji": "😉",
+    "type": "sarcasm",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "真贴心，打印到最后一页没墨了",
+    "emoji": "😉",
+    "type": "sarcasm",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "真贴心，我排到队首才说系统坏了",
+    "emoji": "😉",
+    "type": "sarcasm",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "真贴心，休息日一早收到临时任务",
+    "emoji": "😉",
+    "type": "sarcasm",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "Great, the portal crashed right before submission",
+    "emoji": "😉",
+    "type": "sarcasm",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "Great, the printer died on my last page",
+    "emoji": "😉",
+    "type": "sarcasm",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "Great, my bus stopped moving after I got on",
+    "emoji": "😉",
+    "type": "sarcasm",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "Great, the meeting started the second my lunch arrived",
+    "emoji": "😉",
+    "type": "sarcasm",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "Great, my laptop restarted during the update",
+    "emoji": "😉",
+    "type": "sarcasm",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "Great, the loud construction began outside my window",
+    "emoji": "😉",
+    "type": "sarcasm",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "Great, my package says delivered and is nowhere to be found",
+    "emoji": "😉",
+    "type": "sarcasm",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "Great, the TA replied after the deadline passed",
+    "emoji": "😉",
+    "type": "sarcasm",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "Great, the room changed after I had already arrived",
+    "emoji": "😉",
+    "type": "sarcasm",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "Great, the fire alarm went off during my presentation",
+    "emoji": "😉",
+    "type": "sarcasm",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "Love that the portal crashed right before submission",
+    "emoji": "😉",
+    "type": "sarcasm",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "Love that the printer died on my last page",
+    "emoji": "😉",
+    "type": "sarcasm",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "Love that my bus stopped moving after I got on",
+    "emoji": "😉",
+    "type": "sarcasm",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "Love that the meeting started the second my lunch arrived",
+    "emoji": "😉",
+    "type": "sarcasm",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "Love that my laptop restarted during the update",
+    "emoji": "😉",
+    "type": "sarcasm",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "Love that the loud construction began outside my window",
+    "emoji": "😉",
+    "type": "sarcasm",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "太好了，my login 刚对了三次系统又把我踢出来",
+    "emoji": "😉",
+    "type": "sarcasm",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "Love this，刚到 station 就看到 service delay",
+    "emoji": "😉",
+    "type": "sarcasm",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "真贴心，office hour 轮到我时 suddenly time's up",
+    "emoji": "😉",
+    "type": "sarcasm",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "Great，group members 终于回消息是 deadline 之后",
+    "emoji": "😉",
+    "type": "sarcasm",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "太棒了，presentation 前十分钟 projector no signal",
+    "emoji": "😉",
+    "type": "sarcasm",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "Amazing，刚买完 coffee 就被叫去 emergency meeting",
+    "emoji": "😉",
+    "type": "sarcasm",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "真会挑时间，Zoom 一到我开口就 unstable connection",
+    "emoji": "😉",
+    "type": "sarcasm",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "Perfect，今天特地早到 campus 结果 room changed again",
+    "emoji": "😉",
+    "type": "sarcasm",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "这学期的精力管理，已经可以拿去做反面教材了",
+    "emoji": "😂",
+    "type": "dark_humor",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "这学期的精力管理，稳定得像一种慢性灾害",
+    "emoji": "😂",
+    "type": "dark_humor",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "这学期的精力管理，最近主打一个想起什么丢什么",
+    "emoji": "😂",
+    "type": "dark_humor",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "这学期的精力管理，越来越像即将关停的服务",
+    "emoji": "😂",
+    "type": "dark_humor",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "这学期的精力管理，已经进入靠玄学维持的阶段",
+    "emoji": "😂",
+    "type": "dark_humor",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "这学期的精力管理，比天气预报还难预测",
+    "emoji": "😂",
+    "type": "dark_humor",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "这学期的精力管理，看起来很忙其实全在补救",
+    "emoji": "😂",
+    "type": "dark_humor",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "这学期的精力管理，再努力一点都能写成事故报告",
+    "emoji": "😂",
+    "type": "dark_humor",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "这学期的精力管理，完全靠最后一口气运行",
+    "emoji": "😂",
+    "type": "dark_humor",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "这学期的精力管理，像被人按了随机播放",
+    "emoji": "😂",
+    "type": "dark_humor",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "我的时间规划，已经可以拿去做反面教材了",
+    "emoji": "😂",
+    "type": "dark_humor",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "我的时间规划，稳定得像一种慢性灾害",
+    "emoji": "😂",
+    "type": "dark_humor",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "我的时间规划，最近主打一个想起什么丢什么",
+    "emoji": "😂",
+    "type": "dark_humor",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "我的时间规划，越来越像即将关停的服务",
+    "emoji": "😂",
+    "type": "dark_humor",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "我的时间规划，已经进入靠玄学维持的阶段",
+    "emoji": "😂",
+    "type": "dark_humor",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "我的时间规划，比天气预报还难预测",
+    "emoji": "😂",
+    "type": "dark_humor",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "My study schedule is now held together by pure fiction",
+    "emoji": "😂",
+    "type": "dark_humor",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "My study schedule looks like a case study in slow collapse",
+    "emoji": "😂",
+    "type": "dark_humor",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "My study schedule has entered its villain era",
+    "emoji": "😂",
+    "type": "dark_humor",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "My study schedule is running on decorative confidence",
+    "emoji": "😂",
+    "type": "dark_humor",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "My study schedule could be submitted as experimental chaos",
+    "emoji": "😂",
+    "type": "dark_humor",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "My study schedule is somehow both absent and overwhelming",
+    "emoji": "😂",
+    "type": "dark_humor",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "My study schedule has become a weekly jump scare",
+    "emoji": "😂",
+    "type": "dark_humor",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "My study schedule is one minor inconvenience away from theatre",
+    "emoji": "😂",
+    "type": "dark_humor",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "My study schedule would lose a fight against a sticky note",
+    "emoji": "😂",
+    "type": "dark_humor",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "My study schedule is doing improv with no rehearsal",
+    "emoji": "😂",
+    "type": "dark_humor",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "My bank account is now held together by pure fiction",
+    "emoji": "😂",
+    "type": "dark_humor",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "My bank account looks like a case study in slow collapse",
+    "emoji": "😂",
+    "type": "dark_humor",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "My bank account has entered its villain era",
+    "emoji": "😂",
+    "type": "dark_humor",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "My bank account is running on decorative confidence",
+    "emoji": "😂",
+    "type": "dark_humor",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "My bank account could be submitted as experimental chaos",
+    "emoji": "😂",
+    "type": "dark_humor",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "My bank account is somehow both absent and overwhelming",
+    "emoji": "😂",
+    "type": "dark_humor",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "我的 productivity 最近像 beta feature，随时可能下线",
+    "emoji": "😂",
+    "type": "dark_humor",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "GPA 这条线还在往下 but at least it's committed",
+    "emoji": "😂",
+    "type": "dark_humor",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "我现在的 budget 主打一个 survive first，aesthetics later",
+    "emoji": "😂",
+    "type": "dark_humor",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "Pulling all-nighters 已经成了我的 default setting",
+    "emoji": "😂",
+    "type": "dark_humor",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "这周的 to-do list 像 endless scroll，根本拉不到底",
+    "emoji": "😂",
+    "type": "dark_humor",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "我的 memory 最近像 bad cache，刚看过就消失",
+    "emoji": "😂",
+    "type": "dark_humor",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "生活最近像 crash log，一页比一页精彩",
+    "emoji": "😂",
+    "type": "dark_humor",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "At this point 我的作息已经不算 schedule，算 urban legend",
+    "emoji": "😂",
+    "type": "dark_humor",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "这段直播效果太顶了，我直接笑清醒了",
+    "emoji": "😂",
+    "type": "slang",
+    "true_sentiment": "positive"
+  },
+  {
+    "text": "他最后那句反击太狠了，我当场起立",
+    "emoji": "😂",
+    "type": "slang",
+    "true_sentiment": "positive"
+  },
+  {
+    "text": "这个梗越品越有味，我真的上头",
+    "emoji": "😂",
+    "type": "slang",
+    "true_sentiment": "positive"
+  },
+  {
+    "text": "这条评论一出，整个楼都活了",
+    "emoji": "😂",
+    "type": "slang",
+    "true_sentiment": "positive"
+  },
+  {
+    "text": "看到最终通知我人都僵住了",
+    "emoji": "😂",
+    "type": "slang",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "他这发言一出来，整个群都沉默了",
+    "emoji": "😂",
+    "type": "slang",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "这波操作把我整得彻底没脾气",
+    "emoji": "😂",
+    "type": "slang",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "成绩一刷新我脑子直接空白",
+    "emoji": "😂",
+    "type": "slang",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "这个瓜越看越离谱，我一边震惊一边想看后续",
+    "emoji": "😂",
+    "type": "slang",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "这段聊天记录太有戏了，我都不知道该笑还是该叹气",
+    "emoji": "😂",
+    "type": "slang",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "他那句解释给我听懵了，但又莫名有点好笑",
+    "emoji": "😂",
+    "type": "slang",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "这剧情转得太快，我整个人跟着过山车",
+    "emoji": "😂",
+    "type": "slang",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "That clip was so good I replayed it immediately",
+    "emoji": "😂",
+    "type": "slang",
+    "true_sentiment": "positive"
+  },
+  {
+    "text": "This comment section is carrying the whole post",
+    "emoji": "😂",
+    "type": "slang",
+    "true_sentiment": "positive"
+  },
+  {
+    "text": "Her comeback was clean and I'm still thinking about it",
+    "emoji": "😂",
+    "type": "slang",
+    "true_sentiment": "positive"
+  },
+  {
+    "text": "That edit went ridiculously hard",
+    "emoji": "😂",
+    "type": "slang",
+    "true_sentiment": "positive"
+  },
+  {
+    "text": "The group chat was on fire after that screenshot dropped",
+    "emoji": "😂",
+    "type": "slang",
+    "true_sentiment": "positive"
+  },
+  {
+    "text": "This meme is way too accurate and I love it",
+    "emoji": "😂",
+    "type": "slang",
+    "true_sentiment": "positive"
+  },
+  {
+    "text": "That announcement hit and my brain just logged off",
+    "emoji": "😂",
+    "type": "slang",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "He posted that with confidence and I had to sit down",
+    "emoji": "😂",
+    "type": "slang",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "The score popped up and I actually froze",
+    "emoji": "😂",
+    "type": "slang",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "That take was so bad the room went spiritually silent",
+    "emoji": "😂",
+    "type": "slang",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "She sent that text and I felt my soul leave",
+    "emoji": "😂",
+    "type": "slang",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "That thread was such a mess I couldn't look away",
+    "emoji": "😂",
+    "type": "slang",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "The whole exchange was chaotic enough to be entertaining",
+    "emoji": "😂",
+    "type": "slang",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "That reveal was equal parts wild and hilarious",
+    "emoji": "😂",
+    "type": "slang",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "This post is so cursed it's weirdly impressive",
+    "emoji": "😂",
+    "type": "slang",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "The timeline was melting down and honestly I got why",
+    "emoji": "😂",
+    "type": "slang",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "这条 post 一出来我整个人都醒了",
+    "emoji": "😂",
+    "type": "slang",
+    "true_sentiment": "positive"
+  },
+  {
+    "text": "他说完那句 whole room 都安静了",
+    "emoji": "😂",
+    "type": "slang",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "这个 reaction 也太 real 了，我直接上头",
+    "emoji": "😂",
+    "type": "slang",
+    "true_sentiment": "positive"
+  },
+  {
+    "text": "看到 final result 我大脑 literally 停摆",
+    "emoji": "😂",
+    "type": "slang",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "这段 vlog 太抓马了，我一边震惊一边追更",
+    "emoji": "😂",
+    "type": "slang",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "这个 comment 太会了，整个 thread 都被点燃",
+    "emoji": "😂",
+    "type": "slang",
+    "true_sentiment": "positive"
+  },
+  {
+    "text": "这条 rumor 一传开，group chat 直接炸锅",
+    "emoji": "😂",
+    "type": "slang",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "他这个操作把大家都搞得 speechless",
+    "emoji": "😂",
+    "type": "slang",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "这段对话太有 content 了，我已经开始截图转发",
+    "emoji": "😂",
+    "type": "slang",
+    "true_sentiment": "positive"
+  },
+  {
+    "text": "这结局来得这么 sudden，我人都没反应过来",
+    "emoji": "😂",
+    "type": "slang",
+    "true_sentiment": "negative"
+  },
+  {
+    "text": "这个直播片段太疯了，但就是有点好看",
+    "emoji": "😂",
+    "type": "slang",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "她那句 comeback 一出，timeline 直接沸腾",
+    "emoji": "😂",
+    "type": "slang",
+    "true_sentiment": "positive"
+  },
+  {
+    "text": "把宿舍最后一箱东西搬走的时候，突然不想走那么快",
+    "emoji": "😊",
+    "type": "bittersweet",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "最后一次刷开这栋楼的门禁，心里空了一下",
+    "emoji": "😊",
+    "type": "bittersweet",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "拍完毕业照回去路上，大家都比刚才安静",
+    "emoji": "😊",
+    "type": "bittersweet",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "终于把这学期所有文件整理完了，也真的该翻篇了",
+    "emoji": "😊",
+    "type": "bittersweet",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "和实习带教吃完散伙饭，回去路上一直在看合照",
+    "emoji": "😊",
+    "type": "bittersweet",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "把桌上的便签一张张撕掉，轻松之外有点舍不得",
+    "emoji": "😊",
+    "type": "bittersweet",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "最后一场社团活动结束后，场地一下子显得特别空",
+    "emoji": "😊",
+    "type": "bittersweet",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "盼了很久的旅行终于成真，返程那天反而最安静",
+    "emoji": "😊",
+    "type": "bittersweet",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "收到了想要的消息，却刚好意味着要离开熟悉的人",
+    "emoji": "😊",
+    "type": "bittersweet",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "把用了很久的账号头像换掉，像是在认真告别一段时间",
+    "emoji": "😊",
+    "type": "bittersweet",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "终于把房间收拾得很干净，却不是为了继续住下去",
+    "emoji": "😊",
+    "type": "bittersweet",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "那束花终于开了，偏偏也是我要搬家的这一周",
+    "emoji": "😊",
+    "type": "bittersweet",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "把项目交上去那一刻松了口气，也突然没了支点",
+    "emoji": "😊",
+    "type": "bittersweet",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "和同桌说完最后一次下课见，转身才有点反应过来",
+    "emoji": "😊",
+    "type": "bittersweet",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "I turned in the final draft and then just sat there for a minute",
+    "emoji": "😊",
+    "type": "bittersweet",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "The goodbye dinner was lovely and somehow too short",
+    "emoji": "😊",
+    "type": "bittersweet",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "I finally got the result I wanted and immediately thought about who wasn't there",
+    "emoji": "😊",
+    "type": "bittersweet",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "Packing the last shelf felt efficient until it didn't",
+    "emoji": "😊",
+    "type": "bittersweet",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "We finished the project and the silence after was strangely loud",
+    "emoji": "😊",
+    "type": "bittersweet",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "The last commute home felt lighter and harder at the same time",
+    "emoji": "😊",
+    "type": "bittersweet",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "I got the offer and realized it came with leaving a lot behind",
+    "emoji": "😊",
+    "type": "bittersweet",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "The trip I'd counted down to was over before my mind caught up",
+    "emoji": "😊",
+    "type": "bittersweet",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "I deleted the shared calendar and stared at the empty week",
+    "emoji": "😊",
+    "type": "bittersweet",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "The season ended with a win and still felt unfinished",
+    "emoji": "😊",
+    "type": "bittersweet",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "I cleaned my desk completely and it looked less like progress than a goodbye",
+    "emoji": "😊",
+    "type": "bittersweet",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "The final class photo came out great and made everyone quiet",
+    "emoji": "😊",
+    "type": "bittersweet",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "I watched the gate close and knew I was exactly where I wanted to be and far from home",
+    "emoji": "😊",
+    "type": "bittersweet",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "We said we'd keep in touch and everyone meant it a little desperately",
+    "emoji": "😊",
+    "type": "bittersweet",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "拿到 offer letter 的那一刻很开心，then the leaving part hit me",
+    "emoji": "😊",
+    "type": "bittersweet",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "今天把 desk 清空了，free 是 free 了但也真的结束了",
+    "emoji": "😊",
+    "type": "bittersweet",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "最后一次从 lab 出来，sunset 很好看却有点太像告别",
+    "emoji": "😊",
+    "type": "bittersweet",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "The trip was everything I wanted，返程的时候却一句话都不想说",
+    "emoji": "😊",
+    "type": "bittersweet",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "终于不用再赶这个 deadline 了，but I weirdly miss the chaos",
+    "emoji": "😊",
+    "type": "bittersweet",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "和 team 拍完最后一张合照，everyone smiled a little too long",
+    "emoji": "😊",
+    "type": "bittersweet",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "搬家那天效率很高，到了晚上才发现自己一直在回头看",
+    "emoji": "😊",
+    "type": "bittersweet",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "We wrapped the semester nicely，心里却像还有一句没说完",
+    "emoji": "😊",
+    "type": "bittersweet",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "把 old notes 都收起来了，room 更整洁了也更空了",
+    "emoji": "😊",
+    "type": "bittersweet",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "最后一次进这个 classroom，nothing happened but it still felt important",
+    "emoji": "😊",
+    "type": "bittersweet",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "今天正式 resign 了，light 了一点也空了一点",
+    "emoji": "😊",
+    "type": "bittersweet",
+    "true_sentiment": "mixed"
+  },
+  {
+    "text": "Flight boarding 的时候很兴奋，落地前却突然开始想家",
+    "emoji": "😊",
+    "type": "bittersweet",
+    "true_sentiment": "mixed"
+  }
+]

@@ -25,6 +25,7 @@ from sklearn.metrics import (
 
 from data_prep import EMOJI_MAP, VALID_EMOJI, emoji_sentiment, load_semeval
 from inference import (
+    predict_emoji_v2,
     load_finetuned_model, load_base_model,
     predict_batch_v2, predict_emoji,
     parse_generated_output,
@@ -221,7 +222,7 @@ def plot_comparison(all_results: list):
     """
     生成四维对比条形图，直观展示各模型在四个指标上的差异。
     """
-    models  = [r["model"].replace(" (ours)", "★").replace("Qwen2.5-7B + QLoRA", "QLoRA★") for r in all_results]
+    models  = [r["model"].replace(" (ours)", "★").replace("Qwen3.0-8B + QLoRA", "QLoRA★") for r in all_results]
     metrics = {
         "Exact Match Acc.":    [r["accuracy"]      for r in all_results],
         "Semantic Score":      [r["semantic_score"] for r in all_results],
@@ -302,12 +303,12 @@ def run_full_comparison(test_text_path, test_label_path, lora_path,
     all_results.append(evaluate_model_full(tfidf_preds, gt, "TF-IDF + Logistic Regression"))
 
     # ── Baseline 2: Zero-shot ─────────────────────────────────────────────────
-    print("\n[2/4] Zero-shot Qwen2.5-7B...")
+    print("\n[2/4] Zero-shot Qwen3-8B...")
     base_model, base_tok = load_base_model()
-    zero_results = [{"primary": predict_emoji(t, base_model, base_tok), "parse_success": False,
-                     "irony": False, "alternative": None} for t in tqdm(texts)]
+    zero_results = [predict_emoji_v2(t, base_model, base_tok) for t in tqdm(texts, desc="Zero-shot")]  # fixed
+# removed
     zero_preds = [r["primary"] for r in zero_results]
-    all_results.append(evaluate_model_full(zero_preds, gt, "Qwen2.5-7B (zero-shot)"))
+    all_results.append(evaluate_model_full(zero_preds, gt, "Qwen3-8B (zero-shot)"))
     del base_model
 
     # ── Our model: QLoRA ──────────────────────────────────────────────────────
@@ -323,7 +324,7 @@ def run_full_comparison(test_text_path, test_label_path, lora_path,
         contra_df = pd.DataFrame(_json.load(open(contradiction_json)))
 
     gen_quality = evaluate_generative_quality(ft_results_v2, gt, contra_df)
-    main_metrics = evaluate_model_full(ft_preds, gt, "Qwen2.5-7B + QLoRA (ours)", ft_results_v2)
+    main_metrics = evaluate_model_full(ft_preds, gt, "Qwen3-8B + QLoRA (ours)", ft_results_v2)
     main_metrics.update(gen_quality)
     all_results.append(main_metrics)
 
@@ -334,7 +335,7 @@ def run_full_comparison(test_text_path, test_label_path, lora_path,
         print(f"    反讽检测准确率       : {gen_quality['irony_detection_accuracy']:.2%}")
 
     # 语义分布图
-    plot_semantic_distribution(ft_preds, gt, "Qwen2.5-7B + QLoRA")
+    plot_semantic_distribution(ft_preds, gt, "Qwen3-8B + QLoRA")
 
     # ── 汇总 ──────────────────────────────────────────────────────────────────
     plot_comparison(all_results)

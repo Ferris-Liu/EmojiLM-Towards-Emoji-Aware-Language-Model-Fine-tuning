@@ -1,0 +1,4 @@
+model,accuracy,f1_macro,f1_weighted,semantic_score,sentiment_acc,json_parse_success_rate,alternative_semantic_score,irony_detection_accuracy
+TF-IDF + Logistic Regression,0.41,0.1168,0.2903,0.5282,0.897,,,
+Qwen3-8B (zero-shot),0.191,0.1369,0.1777,0.2669,0.763,,,
+Qwen3-8B + QLoRA (ours),0.282,0.2824,0.2609,0.4293,0.871,1.0,0.3635,0.2

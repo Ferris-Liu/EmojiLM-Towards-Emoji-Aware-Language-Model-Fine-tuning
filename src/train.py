@@ -1,7 +1,7 @@
 """
 train.py  (v3 — Qwen3-8B)
 --------------------------
-基座模型从 Qwen2.5-7B-Instruct 升级到 Qwen3-8B。
+基座模型：Qwen3-8B（QLoRA 微调）。
 
 Qwen3 关键变化：
   1. 模型名称：Qwen/Qwen3-8B
@@ -47,7 +47,7 @@ from data_prep import (
 )
 
 # ── 路径配置 ────────────────────────────────────────────────────────────────────
-MODEL_NAME  = "Qwen/Qwen3-8B"          # ← Qwen2.5-7B → Qwen3-8B
+MODEL_NAME  = "Qwen/Qwen3-8B"
 TRAIN_TEXT  = "data/raw/semeval2018/us_train.text"
 TRAIN_LABEL = "data/raw/semeval2018/us_train.labels"
 CONTRA_PATH = "data/contradiction/contradiction_en.json"
@@ -99,7 +99,7 @@ def prepare_data(args, tokenizer):
 
     train_df, val_df = train_test_split(
         df, test_size=args.test_size, random_state=42,
-        stratify=df["label"].clip(0, 19),
+        
     )
     print(f"  Train: {len(train_df):,}  |  Val: {len(val_df):,}")
 
@@ -231,7 +231,7 @@ def main():
         load_best_model_at_end=True,
         metric_for_best_model="eval_loss",
 
-        max_seq_length=args.max_len,
+        max_length=args.max_len,
 
         report_to="none" if args.no_wandb else "wandb",
         run_name=f"{args.run_name}-r{args.rank}-lr{args.lr}",
@@ -239,7 +239,7 @@ def main():
 
     trainer = SFTTrainer(
         model=model,
-        tokenizer=tokenizer,
+        processing_class=tokenizer,
         args=sft_config,
         train_dataset=train_ds,
         eval_dataset=val_ds,

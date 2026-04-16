@@ -51,7 +51,7 @@ SYSTEM_PROMPT_V1 = (
 
 # v2/v3：生成式 JSON 输出
 # 关键改动：末尾加 /no_think，关闭 Qwen3 的 Thinking Mode
-# 如果使用 Qwen2.5，/no_think 会被忽略，不影响功能
+# /no_think 是 Qwen3 专属指令，关闭 Thinking Mode，确保输出格式干净
 SYSTEM_PROMPT_V2 = f"""You are an expert in emoji semantics and social media language.
 
 Given a piece of text, you must:
@@ -75,7 +75,7 @@ Respond in this exact JSON format:
 
 /no_think"""
 # ↑ /no_think 是 Qwen3 的指令，告诉模型跳过 <think> 推理块，直接输出答案
-# 对 Qwen2.5 无效果（会被当作普通文本忽略）
+# 告诉模型跳过 <think> 推理块，直接输出答案
 
 # 默认使用 v2
 SYSTEM_PROMPT = SYSTEM_PROMPT_V2

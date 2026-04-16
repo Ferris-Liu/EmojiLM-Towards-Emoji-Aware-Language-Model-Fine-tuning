@@ -27,7 +27,7 @@ from data_prep import (
     build_chat_prompt, emoji_sentiment,
 )
 
-MODEL_NAME = "Qwen/Qwen3-8B"           # ← Qwen2.5-7B → Qwen3-8B
+MODEL_NAME = "Qwen/Qwen3-8B"
 LORA_PATH  = "outputs/lora_weights/expA-main/final"
 
 

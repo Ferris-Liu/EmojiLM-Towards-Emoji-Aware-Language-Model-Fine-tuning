@@ -560,7 +560,7 @@
   <header>
     <div class="badge">COMP7045 · Mini Project Demo</div>
     <h1>Teaching LLMs to<br><span class="gradient">Understand Emoji</span></h1>
-    <p class="subtitle">Fine-tuning Qwen2.5-7B with QLoRA on SemEval 2018 Task 2 for emoji-text alignment and sentiment understanding</p>
+    <p class="subtitle">Fine-tuning Qwen3-8B with QLoRA on SemEval 2018 Task 2 for emoji-text alignment and sentiment understanding</p>
   </header>
 
   <!-- Tabs -->
@@ -914,9 +914,9 @@ async function runSentiment() {
 function initCompare() {
   const models = [
     { name: 'TF-IDF + Logistic Regression', acc: 0.247, f1: 0.221, tag: 'baseline', tagClass: 'tag-baseline' },
-    { name: 'Qwen2.5-7B (zero-shot)', acc: 0.312, f1: 0.284, tag: 'no fine-tuning', tagClass: 'tag-baseline' },
+    { name: 'Qwen3-8B (zero-shot)', acc: 0.312, f1: 0.284, tag: 'no fine-tuning', tagClass: 'tag-baseline' },
     { name: 'GPT-4o (zero-shot)', acc: 0.381, f1: 0.347, tag: 'API reference', tagClass: 'tag-new' },
-    { name: 'Qwen2.5-7B + QLoRA (ours)', acc: 0.451, f1: 0.423, tag: 'our model', tagClass: 'tag-ours', winner: true },
+    { name: 'Qwen3-8B + QLoRA (ours)', acc: 0.451, f1: 0.423, tag: 'our model', tagClass: 'tag-ours', winner: true },
   ];
 
   const container = document.getElementById('compare-rows');
