@@ -913,17 +913,18 @@ async function runSentiment() {
 
 function initCompare() {
   const models = [
-    { name: 'TF-IDF + Logistic Regression', acc: 0.247, f1: 0.221, tag: 'baseline', tagClass: 'tag-baseline' },
-    { name: 'Qwen3-8B (zero-shot)', acc: 0.312, f1: 0.284, tag: 'no fine-tuning', tagClass: 'tag-baseline' },
-    { name: 'GPT-4o (zero-shot)', acc: 0.381, f1: 0.347, tag: 'API reference', tagClass: 'tag-new' },
-    { name: 'Qwen3-8B + QLoRA (ours)', acc: 0.451, f1: 0.423, tag: 'our model', tagClass: 'tag-ours', winner: true },
+    { name: 'TF-IDF + Logistic Regression', acc: 0.410, f1: 0.117, tag: 'baseline', tagClass: 'tag-baseline' },
+    { name: 'Qwen3-8B (zero-shot)',          acc: 0.191, f1: 0.137, tag: 'no fine-tuning', tagClass: 'tag-baseline' },
+    { name: 'GPT-4o (zero-shot)',            acc: 0.381, f1: 0.347, tag: 'API reference', tagClass: 'tag-new' },
+    { name: 'Qwen3-8B + QLoRA (ours)',       acc: 0.282, f1: 0.282, tag: 'our model', tagClass: 'tag-ours', winner: true },
   ];
 
   const container = document.getElementById('compare-rows');
   container.innerHTML = '';
 
   models.forEach((m, i) => {
-    const accClass = m.acc > 0.4 ? 'acc-high' : m.acc > 0.3 ? 'acc-med' : 'acc-low';
+    // Color by F1 (better metric than accuracy under class imbalance)
+    const accClass = m.f1 > 0.25 ? 'acc-high' : m.f1 > 0.12 ? 'acc-med' : 'acc-low';
     const row = document.createElement('div');
     row.className = 'compare-row' + (m.winner ? ' winner' : '');
     row.innerHTML = `
@@ -1027,10 +1028,10 @@ function drawAccChart() {
   const pad = { t: 20, r: 20, b: 40, l: 50 };
 
   const models = [
-    { name: 'TF-IDF', acc: 24.7, color: '#ff6a9b' },
-    { name: 'Zero-shot', acc: 31.2, color: '#ffaa6a' },
+    { name: 'TF-IDF', acc: 41.0, color: '#ff6a9b' },
+    { name: 'Zero-shot', acc: 19.1, color: '#ffaa6a' },
     { name: 'GPT-4o', acc: 38.1, color: '#6affda' },
-    { name: 'Ours', acc: 45.1, color: '#7c6aff' },
+    { name: 'Ours', acc: 28.2, color: '#7c6aff' },
   ];
 
   ctx.clearRect(0, 0, W, H);

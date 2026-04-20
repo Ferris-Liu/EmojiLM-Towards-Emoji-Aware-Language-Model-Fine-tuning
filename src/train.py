@@ -1,30 +1,4 @@
-"""
-train.py  (v3 — Qwen3-8B)
---------------------------
-基座模型：Qwen3-8B（QLoRA 微调）。
-
-Qwen3 关键变化：
-  1. 模型名称：Qwen/Qwen3-8B
-  2. Thinking Mode：Qwen3 默认会输出 <think>...</think> 推理块
-     → 训练时在 system prompt 末尾加 /no_think 关闭
-     → 保证输出格式干净，不影响 JSON 解析
-
-用法：
-  # 主实验（Exp-A）
-  python src/train.py --max_samples 100000 --run_name expA-main
-
-  # 消融：rank=8（Exp-B）
-  python src/train.py --max_samples 100000 --rank 8 --run_name expB-rank8
-
-  # 消融：去掉EmojiContra（Exp-C）
-  python src/train.py --max_samples 100000 --no_contra --run_name expC-no-contra
-
-  # 消融：去掉emoji列表约束（Exp-D）
-  python src/train.py --max_samples 100000 --no_constraint --run_name expD-no-constraint
-
-  # 从checkpoint续训
-  python src/train.py --max_samples 100000 --resume outputs/lora_weights/expA-main/checkpoint-5000
-"""
+"""Train Qwen3-8B with QLoRA for structured emoji prediction."""
 
 import argparse
 import os
@@ -42,11 +16,9 @@ from trl import SFTTrainer, SFTConfig
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from data_prep import (
     load_semeval, load_contradiction,
-    tokenize_dataset, EMOJI_MAP,
-    SYSTEM_PROMPT_V2,
+    tokenize_dataset,
 )
 
-# ── 路径配置 ────────────────────────────────────────────────────────────────────
 MODEL_NAME  = "Qwen/Qwen3-8B"
 TRAIN_TEXT  = "data/raw/semeval2018/us_train.text"
 TRAIN_LABEL = "data/raw/semeval2018/us_train.labels"
@@ -54,7 +26,6 @@ CONTRA_PATH = "data/contradiction/contradiction_en.json"
 OUTPUT_DIR  = "outputs/lora_weights"
 
 
-# ── 命令行参数 ──────────────────────────────────────────────────────────────────
 def parse_args():
     parser = argparse.ArgumentParser(description="EmojiLM QLoRA Fine-tuning (Qwen3-8B)")
 
@@ -75,7 +46,6 @@ def parse_args():
     return parser.parse_args()
 
 
-# ── 数据准备 ────────────────────────────────────────────────────────────────────
 def prepare_data(args, tokenizer):
     from sklearn.model_selection import train_test_split
 
@@ -98,19 +68,17 @@ def prepare_data(args, tokenizer):
         print(f"  [警告] 未找到EmojiContra文件，跳过")
 
     train_df, val_df = train_test_split(
-        df, test_size=args.test_size, random_state=42,
-        
+        df, test_size=args.test_size, random_state=42
     )
     print(f"  Train: {len(train_df):,}  |  Val: {len(val_df):,}")
 
     print(f"  Tokenizing（max_len={args.max_len}）...")
-    train_ds = tokenize_dataset(train_df, tokenizer, args.max_len, use_v2=True)
-    val_ds   = tokenize_dataset(val_df,   tokenizer, args.max_len, use_v2=True)
+    train_ds = tokenize_dataset(train_df, tokenizer, args.max_len, not args.no_constraint)
+    val_ds   = tokenize_dataset(val_df,   tokenizer, args.max_len, not args.no_constraint)
 
     return train_ds, val_ds
 
 
-# ── 主函数 ─────────────────────────────────────────────────────────────────────
 def main():
     args = parse_args()
 
@@ -127,17 +95,9 @@ def main():
         print(f"  续训自：{args.resume}")
     print(f"{'='*60}\n")
 
-    # 消融Exp-D：去掉emoji列表约束
     if args.no_constraint:
         print("[消融] 已去掉System Prompt中的emoji列表约束")
-        import data_prep as dp
-        emoji_list_line = (
-            f"\nYou MUST choose emoji only from this list:\n"
-            f"{' '.join(EMOJI_MAP.values())}"
-        )
-        dp.SYSTEM_PROMPT = dp.SYSTEM_PROMPT_V2.replace(emoji_list_line, "")
 
-    # ── Step 1: Tokenizer ──────────────────────────────────────────────────────
     print("[1/5] 加载Tokenizer...")
     tokenizer = AutoTokenizer.from_pretrained(
         MODEL_NAME,
@@ -147,11 +107,9 @@ def main():
     if tokenizer.pad_token is None:
         tokenizer.pad_token = tokenizer.eos_token
 
-    # ── Step 2: 数据 ───────────────────────────────────────────────────────────
     print("[2/5] 准备数据集...")
     train_ds, val_ds = prepare_data(args, tokenizer)
 
-    # ── Step 3: 模型（4bit量化）────────────────────────────────────────────────
     print("[3/5] 加载Qwen3-8B（4bit量化）...")
     bnb_config = BitsAndBytesConfig(
         load_in_4bit=True,
@@ -181,7 +139,6 @@ def main():
         total_gb = torch.cuda.get_device_properties(0).total_memory / 1e9
         print(f"  显存：{mem_gb:.1f} GB / {total_gb:.0f} GB")
 
-    # ── Step 4: LoRA ───────────────────────────────────────────────────────────
     print("[4/5] 配置LoRA...")
     model = prepare_model_for_kbit_training(
         model, use_gradient_checkpointing=True,
@@ -202,7 +159,6 @@ def main():
     model = get_peft_model(model, lora_config)
     model.print_trainable_parameters()
 
-    # ── Step 5: 训练 ───────────────────────────────────────────────────────────
     print("[5/5] 开始训练...")
 
     save_dir = os.path.join(OUTPUT_DIR, args.run_name)

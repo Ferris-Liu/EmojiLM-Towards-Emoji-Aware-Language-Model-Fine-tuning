@@ -1,2 +1,6 @@
 emojilm_code_and_results.tar.gz
 *.tar.gz
+
+__pycache__/
+*.py[cod]
+.DS_Store
